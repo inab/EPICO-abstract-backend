@@ -411,7 +411,7 @@ I<(to be documented)>
 
 =head1 AUTHOR
 
-José M. Fernández L<https://github.com/jmfernandez|https://github.com/jmfernandez>
+José M. Fernández L<https://github.com/jmfernandez>
 
 =head1 COPYRIGHT
 
