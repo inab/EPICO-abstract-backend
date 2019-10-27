@@ -379,3 +379,52 @@ sub getCompoundAnalysisIdsFromCompoundDonorIds(\@;$) {
 }
 
 1;
+__END__
+
+=encoding utf8
+
+=head1 NAME
+
+EPICO::REST::Backend - Abstract backend class for EPICO REST API
+
+=head1 SYNOPSIS
+
+    package EPICO::REST::Backend::NewBackend;
+    
+    use base qw(EPICO::REST::Backend);
+    
+=head1 DESCRIPTION
+
+EPICO::REST::Backend is the backbone of the pluggable backends on EPICO REST API.
+
+It was initially  created under the umbrella of L<BLUEPRINT project|https://blueprint-epigenome.eu>.
+
+=head1 RATIONALE
+
+Instead of having a monolithic API, EPICO REST API was designed thinking
+both on different instances of the same implementation, as well as pluggable
+instances for other external sources.
+
+=head1 METHODS
+
+I<(to be documented)>
+
+=head1 AUTHOR
+
+José M. Fernández L<https://github.com/jmfernandez|https://github.com/jmfernandez>
+
+=head1 COPYRIGHT
+
+The library was initially created several years ago for the EPICO REST
+API in the L<BLUEPRINT project|http://www.blueprint-epigenome.eu/>.
+
+Copyright 2019- José M. Fernández & Barcelona Supercomputing Center (BSC)
+
+=head1 LICENSE
+
+This library is free software; you can redistribute it and/or modify
+it under the LGPL 2.1 terms.
+
+=head1 SEE ALSO
+
+=cut
