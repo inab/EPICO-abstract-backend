@@ -13,7 +13,7 @@ package EPICO::REST::Backend;
 
 use version;
 
-our $VERSION = version->declare('v1.0.0');
+our $VERSION = version->declare('v1.0.1');
 
 use boolean qw();
 use Carp;

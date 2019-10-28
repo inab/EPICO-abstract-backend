@@ -22,7 +22,10 @@ my %WriteMakefileArgs = (
     "Scalar::Util" => 0,
     "boolean" => 0
   },
-  "VERSION" => "v1.0.0",
+  "TEST_REQUIRES" => {
+    "Test::More" => "0.96"
+  },
+  "VERSION" => "v1.0.1",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -34,6 +37,7 @@ my %FallbackPrereqs = (
   "Config::IniFiles" => 0,
   "Log::Log4perl" => 0,
   "Scalar::Util" => 0,
+  "Test::More" => "0.96",
   "boolean" => 0
 );
 

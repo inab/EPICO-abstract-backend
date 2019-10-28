@@ -5,3 +5,6 @@ Revision history for EPICO-abstract-backend
 v1.0.0
 	- Forked from https://github.com/inab/EPICO-REST-API.git
 	- Initial release based on Dist::Milla.
+
+v1.0.1
+	- Added forgotten develop dependencies on Dist::Milla
