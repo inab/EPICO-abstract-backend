@@ -8,3 +8,6 @@ v1.0.0
 
 v1.0.1
 	- Added forgotten develop dependencies on Dist::Milla
+
+v2.0.0
+	- API generalization for several genomic assemblies
