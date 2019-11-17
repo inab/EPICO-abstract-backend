@@ -1,6 +1,8 @@
 Revision history for EPICO-abstract-backend
 
 {{$NEXT}}
+
+v2.0.1  2019-11-17 21:35:59 CET
 	- Added missing development dependencies.
 	- Updated install instructions, where it shows how to inject this
 	  modules dependency in different scenarios.
