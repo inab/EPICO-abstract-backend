@@ -4,10 +4,13 @@ EPICO::REST::Backend - Abstract backend class for EPICO REST API
 
 # SYNOPSIS
 
+```perl
+
     package EPICO::REST::Backend::NewBackend;
     
     use base qw(EPICO::REST::Backend);
-    
+
+```
 
 # DESCRIPTION
 
@@ -24,6 +27,17 @@ instances for other external sources.
 # METHODS
 
 _(to be documented)_
+
+# INSTALLATION
+
+Latest release of this package is available in the [BSC INB DarkPAN](https://gitlab.bsc.es/inb/darkpan/). You
+can install it just using `cpanm`:
+
+```bash
+
+    cpanm --mirror-only --mirror https://gitlab.bsc.es/inb/darkpan/raw/master/ --mirror https://cpan.metacpan.org/ BP::DCCLoader
+
+```
 
 # AUTHOR
 

@@ -232,7 +232,7 @@ sub getGenomicLayoutFromCoords($$$$) {
 	
 	Carp::croak((caller(0))[3].' is an instance method!')  unless(ref($self));
 	
-	my($chromosome,$chromosome_start,$chromosome_end) = @_;
+	my($assembly_id,$chromosome,$chromosome_start,$chromosome_end) = @_;
 	
 	my $rangeData = {
 		'range'	=>	[
