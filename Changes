@@ -1,13 +1,17 @@
 Revision history for EPICO-abstract-backend
 
 {{$NEXT}}
+	- Added missing development dependencies.
+	- Updated install instructions, where it shows how to inject this
+	  modules dependency in different scenarios.
+	- Added needed setup to push releases into BSC INB DarkPAN.
 
-v1.0.0
-	- Forked from https://github.com/inab/EPICO-REST-API.git
-	- Initial release based on Dist::Milla.
+v2.0.0
+	- API generalization for several genomic assemblies
 
 v1.0.1
 	- Added forgotten develop dependencies on Dist::Milla
 
-v2.0.0
-	- API generalization for several genomic assemblies
+v1.0.0
+	- Forked from https://github.com/inab/EPICO-REST-API.git
+	- Initial release based on Dist::Milla.
