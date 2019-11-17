@@ -424,7 +424,7 @@ can install it just using C<cpanm>:
 
 =for markdown ```bash
 
-  cpanm --mirror-only --mirror https://gitlab.bsc.es/inb/darkpan/raw/master/ --mirror https://cpan.metacpan.org/ BP::DCCLoader
+  cpanm --mirror-only --mirror https://gitlab.bsc.es/inb/darkpan/raw/master/ --mirror https://cpan.metacpan.org/ EPICO::REST::Backend
 
 =for markdown ```
 
