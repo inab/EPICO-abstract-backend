@@ -35,7 +35,7 @@ can install it just using `cpanm`:
 
 ```bash
 
-    cpanm --mirror-only --mirror https://gitlab.bsc.es/inb/darkpan/raw/master/ --mirror https://cpan.metacpan.org/ BP::DCCLoader
+    cpanm --mirror-only --mirror https://gitlab.bsc.es/inb/darkpan/raw/master/ --mirror https://cpan.metacpan.org/ EPICO::REST::Backend
 
 ```
 
